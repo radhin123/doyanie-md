@@ -1,9 +1,9 @@
 exports.wait = () => {
-    return `Loading...`
+    return `Tunggu...`
 }
 
 exports.ok = () => {
-    return `Done.`
+    return `Done\nSubscribe\nbit.ly/youtubemdoyanie`
 }
 
 exports.err = () => {
@@ -61,7 +61,7 @@ Terima Kasih Telah Melapor, Laporanmu Akan Kami Segera Terima.`
 }
 
 exports.videoLimit = () => {
-    return `Ukuran File Terlalu Besar!`
+    return `Ukuran File Terlalu Besar! Disarankan Ukuran yang lebih kecil/pendek`
 }
 
 exports.notNum = (q) => {
@@ -70,19 +70,15 @@ exports.notNum = (q) => {
 
 exports.listMenu = (time, salam, pushname, prefix) => {
     return `
-*┏━━━━━━━━━━━━━━━━━━*    
-*┃┌────[ I T S U K I ]────*
-*┃│*
-*┃│ ⫹⫺ Library : Baileys-Md*
-*┃│ ⫹⫺ Version : 1.0.1*
-*┃│ ⫹⫺ Language : Javascript*
-*┃│ ⫹⫺ Author : KiZakiXD*
-*┃│ ⫹⫺ Your Name : ${pushname}*
-*┃│ ⫹⫺ Time : ${time}*
-*┃│ ⫹⫺ Ucapan : Selamat ${salam}*
-*┃│*
-*┃╰────[ B O T - M D ]────*
-*┗━━━━━━━━━━━━━━━━━━━*
+*D O Y A N I E _*
+
+*⫹⫺ Library : Baileys-Md*
+*⫹⫺ Version : 1.0.1*
+*⫹⫺ Language : Javascript*
+*⫹⫺ Author : KiZakiXD & Kyura*
+*⫹⫺ Nama Mu : ${pushname}*
+*⫹⫺ Time : ${time}*
+*⫹⫺ Ucapan : Selamat ${salam}*
 
 *[   MAIN   ]*
  _❑   .menu / help_
@@ -167,14 +163,14 @@ exports.tos = (ownerNumber, prefix) => {
 
 _Kalian Bisa Dukung Bot Lewat Donate Ke :_
 
- _》Dana : 085878313791_
- _》Gopay : 085878313791_
- _》Pulsa : 085878313791 ( Indosat )_
+ _》Dana : 081998903280_
+ _》Gopay : 081998903280_
+ _》Pulsa : 081998903280_ _( XL )_
 
 _Donate Kalian Sangat Berarti._
 
 _Contact person Owner:_
-_wa.me/6285878313791_
+_wa.me/6281998903280_
 
     `
 }
