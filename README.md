@@ -28,16 +28,9 @@ apt install imagemagick -y
 git clone https://github.com/KyuraSaja/doyanie-md
 cd doyanie-md
 npm install
-jika error module not found, download module nya di [`sini`](https://github.com/KyuraSaja/nodemodule-md
-npm start
+npm start                                                                                                                                             
 ```
-
+## jika error module not found, download module nya di [`sini`](https://github.com/KyuraSaja/nodemodule-md
+                                                                                                                                               ##
 ---------
 
-## Run
-
-```bash
-node .
-```
-
----------
