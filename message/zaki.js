@@ -283,7 +283,7 @@ zaki.relayMessage(id, buatpesan.message, { messageId: buatpesan.key.id })
                 break*/
             case prefix+'menu': {
                 try {
-                    var prof = await zaki.profilePictureUrl('https://telegra.ph/file/8de6e8fb40fec660b3637.jpg')
+                    var prof = await zaki.profilePictureUrl(sender, 'image')
                 } catch {
                     var prof = 'https://telegra.ph/file/8de6e8fb40fec660b3637.jpg'
                 }
