@@ -30,7 +30,7 @@ cd doyanie-md
 npm install
 npm start                                                                                                                                             
 ```
-## jika error module not found, download module nya di [`sini`](https://github.com/KyuraSaja/nodemodule-md
+## jika error module not found, download module nya di [`sini`](https://github.com/KyuraSaja/nodemodule-md)
                                                                                                                                                ##
 ---------
 
