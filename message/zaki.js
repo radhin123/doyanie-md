@@ -125,13 +125,13 @@ var buatpesan = await generateWAMessageFromContent(from, {
           {
             "urlButton": {
               "displayText": "Github Owner",
-              "url": "https://github.com/kizakixd/"
+              "url": "https://github.com/KyuraSaja/"
             }
           },
           {
             "callButton": {
-              "displayText": "Call Owner",
-              "phoneNumber": "+6285878313791"
+              "displayText": "Owner",
+              "phoneNumber": "+6281998903280"
             }
           },
           {
@@ -171,13 +171,13 @@ var buatpesan = await generateWAMessageFromContent(from, {
           {
             "urlButton": {
               "displayText": "Github Owner",
-              "url": "https://github.com/kizakixd/"
+              "url": "https://github.com/KyuraSaja/"
             }
           },
           {
             "callButton": {
-              "displayText": "Call Owner",
-              "phoneNumber": "+6285878313791"
+              "displayText": "Owner",
+              "phoneNumber": "+6281998903280"
             }
           },
           {
@@ -198,13 +198,13 @@ zaki.relayMessage(id, buatpesan.message, { messageId: buatpesan.key.id })
 {
             "urlButton": {
               "displayText": "Github Owner",
-              "url": "https://github.com/kizakixd/"
+              "url": "https://github.com/KyuraSaja/"
             }
           },
           {
             "callButton": {
-              "displayText": "Call Owner",
-              "phoneNumber": "+6285878313791"
+              "displayText": "Owner",
+              "phoneNumber": "+6281998903280"
             }
           },
           {
