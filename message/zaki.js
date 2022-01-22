@@ -283,9 +283,9 @@ zaki.relayMessage(id, buatpesan.message, { messageId: buatpesan.key.id })
                 break*/
             case prefix+'menu': {
                 try {
-                    var prof = await zaki.profilePictureUrl(sender, 'image')
+                    var prof = await zaki.profilePictureUrl('https://telegra.ph/file/8de6e8fb40fec660b3637.jpg')
                 } catch {
-                    var prof = 'https://i.ibb.co/Tq7d7TZ/age-hananta-495-photo.png'
+                    var prof = 'https://telegra.ph/file/8de6e8fb40fec660b3637.jpg'
                 }
                 sendFileFromUrl(from, prof, zak.listMenu(time, salam, pushname, prefix), msg)
             }
